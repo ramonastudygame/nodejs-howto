@@ -7,6 +7,12 @@ NODE Notes:  NodeJs is free open source, can run on any platform, using JavaScri
 4: var path = require("path");
 5: Output of ${path.basename(__filename)}
 6: process.argv is a great tool, if we want to specify ports, file folders etc, for our app to use at the very beginning.
+7: process.stdout.write, process.stdin.on
+8: setTimeout
+9: Core Modules: Understanding path, util, v8 modules.
+10: Readline module allows us to ask questions of our Terminal User. Wraparound of Standard Input Output objects, prompt qns, save answers.
+Readline can be used to prompt the user, without having to use standard input and standard output directly.
+
 
 
 
