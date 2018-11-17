@@ -6,3 +6,4 @@ exec("ls", function(err,stdout){
 console.log("Listing Finished");
 console.log(stdout);
 });
+/*The above is just like typing ls in the console to get a listing of our files, except we are using a child process to execute */

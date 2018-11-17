@@ -1,6 +1,8 @@
 # nodejs-howto
 NODE Notes:  NodeJs is free open source, can run on any platform, using JavaScript on the server. In Node.js, every JavaScript file is a module, the "require" function is part of the common JS module pattern, but it only represents half the pattern, the half that loads the modules.  The other half, of the pattern, is module.exports, a mechanism used to make our module consumable.  
 
+**Note: After studying this course, do check out CAcademy, if they offer a course there too!
+
 1: The global object is always assumed : global.console.log
 2: Backticks and templaty curly braces
 3: __dirname, __filename
@@ -17,13 +19,12 @@ Readline can be used to prompt the user, without having to use standard input an
 In the command prompt type,   open .    to get the current folder inside of finder.
 In the command prompt type,   open -a terminal to open an instance of terminal.
 In the command prompt type,   git version
+File 010, is a great way to see how a child process works using the .exec and ls to have us list out directory contents
+
 
 ==================   LIVE Server ==================
 
 To run a live server:python -m SimpleHTTPServer 8000
-
-
-
 
 ==================   NPM Notes ==================
 Global package install:  sudo npm install packageName
