@@ -1,5 +1,5 @@
 # nodejs-howto
-NODE Notes:  NodeJs is free open source, can run on any platform, using JavaScript on the server. In Node.js, every JavaScript file is a module, the "require" function is part of the common JS module pattern, but it only represents half the pattern, the half that loads the modules.  The other half, of the pattern, is module.exports, a mechanism used to make our module consumable.  
+NODE Notes:  NodeJs is free open source, can run on any platform. Node.js is actually not a framework, but a runtime environment that allows to execute JavaScript on the server side. In Node.js, every JavaScript file is a module, the "require" function is part of the common JS module pattern, but it only represents half the pattern, the half that loads the modules.  The other half, of the pattern, is module.exports, a mechanism used to make our module consumable.  
 
 **Note: After studying this course, do check out CAcademy, if they offer a course there too!
 
