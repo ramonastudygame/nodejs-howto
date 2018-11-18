@@ -22,7 +22,7 @@ In the command prompt type,   git version
 13: File 010, The FILE SYSTEM:  is a great way to see how a child process works using the .exec and ls to have us list out directory contents
 14: File 011, the fs module used to list, create, stream, write, read, modify permissions etc of files and directories. **Note the differences between how we list the files synchronously and asynchronously! We can do that simply by dropping the Sync. When we drop the Sync from any of these fs commands, also readdir is not going to return our files any longer, but this is an asynchronous command, so what it's going to do is put in a request to read the files from the library folder and when the file system is finished reading those files this call back will be invoked.
 
-
+**Continue with chapter on ... Writing & Appending Files.**
 
 
 ==================   LIVE Server ==================
