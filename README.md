@@ -29,7 +29,7 @@ The first chapter - Higher Order Functions.  Example used is Filter Function.
 
 
 NOTE BEGIN:  Understand the difference between forEach, filter and map; Then learn about Reduce, Advanced Reduce!; Then understand closures.  
-Then understand Currying.
+Then understand Currying.  Then, study about Recursion.
 These are functional programing concepts.
 : NOTE END
 
@@ -45,7 +45,7 @@ Currying:Currying is when a function doesn't take all of its arguments up front.
 And then... the function at the end of the chain will be the one that returns the value that you actually want.  
 The idea behind currying is that your function can pass through the application and gradually receive the arguments that it needs.  At some point we install lodash.  Hmm.
 
-
+Recursion:Recursion is when a function calls itself until it doesn't.  Simply that is all it is!  Don't make it too darn complicated... people on the internet try to explain it with fibonacci numbers lol.  What a waste of time.  Just keep things simple.
 
 ==================   Old vs. Modern Way to import a library in Node ==================
 var fs = require("fs");
