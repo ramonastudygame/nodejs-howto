@@ -1,0 +1,3 @@
+ramona  sgame   chocolate   pancakes    80      2
+ramona  sgame   zevia       soda       200      1
+d2     sgame    sodas       plenty      10      5

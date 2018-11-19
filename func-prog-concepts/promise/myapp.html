@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head><title>Learning Promises</title></head>
+<body>
+
+<p>A simple paragraph unused actually!</p>
+
+<!--
+    Below are 2 scripts
+    First Script: Example of a Promise
+    Second Script: Example of the same Promise but with a Callback Pattern
+-->
+<script>
+import loadImagePromised from './loadImagePromised';
+
+let whenCatLoaded =  loadImagePromised('images/cat1.jpeg')
+//whenCatLoaded is the variable holding the promise
+
+    whenCatLoaded.then((img) => {
+            var imgElement = document.createElement('img')
+            imgElement.src=img.src
+            document.body.appendChild(imgElement)
+    })
+</script>
+
+<script>
+import loadImageCallbacked from './load-image-callbacked';
+
+loadImageCallbacked('images/home1.jpeg',
+    (error, img) =>{
+        let imgElement = document.createElement('img')
+        imgElement.src = img.src
+        document.body.appendChild(imgElement)
+    })
+
+</script>
+
+</body>
+</html>

@@ -22,7 +22,40 @@ In the command prompt type,   git version
 13: File 010, The FILE SYSTEM:  is a great way to see how a child process works using the .exec and ls to have us list out directory contents
 14: File 011, the fs module used to list, create, stream, write, read, modify permissions etc of files and directories. **Note the differences between how we list the files synchronously and asynchronously! We can do that simply by dropping the Sync. When we drop the Sync from any of these fs commands, also readdir is not going to return our files any longer, but this is an asynchronous command, so what it's going to do is put in a request to read the files from the library folder and when the file system is finished reading those files this call back will be invoked.
 
-**Continue with chapter on ... Writing & Appending Files.**
+NOTE:  At this confusing point, realized I am missing core concepts of funcional programming.  Created, new folder, called func-prog-concepts
+The first chapter - Higher Order Functions.  Example used is Filter Function.
+
+
+
+
+NOTE BEGIN:  Understand the difference between forEach, filter and map; Then learn about Reduce, Advanced Reduce!; Then understand closures.  
+Then understand Currying.
+These are functional programing concepts.
+: NOTE END
+
+Foreach like its name "for each", executes a callback function and run that callback function on each element of array one by one.  The callback is invoked with 3 arguments:  the element value, the element index, the array being traversed.
+
+Filter let you provide a callback for every element and returns a filtered array.  The main difference between forEach and filter is that forEach just loop over the array and executes the callback but filter executes the callback and check its return value. 
+
+Map: just like filter & foreach takes a callback and run it against every element on the array but whats makes it unique is it generate a new array based on your existing array.  **As a ReactJS developer, map is used a lot in application UI.
+
+Reduce, takes a call back, like every function we just talked about, and reduces the array to one single value.  
+
+Currying:Currying is when a function doesn't take all of its arguments up front. Instead it wants you to give it the first argument.   And then the function returns another function, which YOU are supposed to call with the second argument. Which in turn will return a new function.   Which you are supposed to call with the third argument.  And so on... until all the arguments have been provided.  
+And then... the function at the end of the chain will be the one that returns the value that you actually want.  
+The idea behind currying is that your function can pass through the application and gradually receive the arguments that it needs.  At some point we install lodash.  Hmm.
+
+
+
+==================   Old vs. Modern Way to import a library in Node ==================
+var fs = require("fs");
+                     or ... in modern JavaScript we would say
+import fs from "fs"
+                     the modern way did not work for me but good to know about it.
+
+
+
+
 
 
 ==================   LIVE Server ==================
