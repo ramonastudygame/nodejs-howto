@@ -43,10 +43,9 @@ Reduce, takes a call back, like every function we just talked about, and reduces
 
 Currying:Currying is when a function doesn't take all of its arguments up front. Instead it wants you to give it the first argument.   And then the function returns another function, which YOU are supposed to call with the second argument. Which in turn will return a new function.   Which you are supposed to call with the third argument.  And so on... until all the arguments have been provided.  
 And then... the function at the end of the chain will be the one that returns the value that you actually want.  
-The idea behind currying is that your function can pass through the application and gradually receive the arguments that it needs.  At some point we install lodash.  Hmm.
+The idea behind currying is that your function can pass through the application and gradually receive the arguments that it needs.  At some point we install lodash. 
 
-Recursion:Recursion is when a function calls itself until it doesn't.  Simply that is all it is!  Don't make it too darn complicated... people on the internet try to explain it with fibonacci numbers lol.  What a waste of time.  Just keep things simple.
-
+Recursion:Recursion is when a function calls itself until it doesn't.  Simply that is all it is!  Don't make it too darn complicated... people on the internet try to explain it with fibonacci numbers lol.  What a waste of time.  Just keep things simple.  See our example.  Recursive functions can do something that loops cannot.
 ==================   Old vs. Modern Way to import a library in Node ==================
 var fs = require("fs");
                      or ... in modern JavaScript we would say
