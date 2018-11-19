@@ -22,8 +22,25 @@ In the command prompt type,   git version
 13: File 010, The FILE SYSTEM:  is a great way to see how a child process works using the .exec and ls to have us list out directory contents
 14: File 011, the fs module used to list, create, stream, write, read, modify permissions etc of files and directories. **Note the differences between how we list the files synchronously and asynchronously! We can do that simply by dropping the Sync. When we drop the Sync from any of these fs commands, also readdir is not going to return our files any longer, but this is an asynchronous command, so what it's going to do is put in a request to read the files from the library folder and when the file system is finished reading those files this call back will be invoked.
 
-NOTE:  At this confusing point, realized I am missing core concepts of funcional programming.  Created, new folder, called func-prog-concepts
+File 012, is about using readdir to read files.
+
+NOTE:  SEE BELOW, NOTE BEGIN AND ALL UP TO NODE END... 
+At this confusing point, realized I am missing core concepts of funcional programming.  Created, new folder, called func-prog-concepts
 The first chapter - Higher Order Functions.  Example used is Filter Function.  
+
+15: File 013, is about Writing and Appending files.
+and if you revisit this chapter, you can see an example of running this command in a way where you can get a new file for each person, that contains quotes by them.  
+
+16: File 014, is about making directories
+note fs.mkdir enables us to make a directory and in our case if the lib directory already exists, it will say "Directory already there"
+
+17: File 015, is about renaming and removing files.  
+we are using the fs.renameSync method to rename a file synchronously.
+
+
+
+
+
 
 
 
@@ -57,7 +74,8 @@ Streams: Think of a stream as the result of promise and array having a baby that
 
 
 
-
+_________________PROMISES__________________________________________
+Look up Evernotes with images and further descriptive understanding, and this is a chapter you can dive deep into later.  
 
 
 
