@@ -23,13 +23,12 @@ In the command prompt type,   git version
 14: File 011, the fs module used to list, create, stream, write, read, modify permissions etc of files and directories. **Note the differences between how we list the files synchronously and asynchronously! We can do that simply by dropping the Sync. When we drop the Sync from any of these fs commands, also readdir is not going to return our files any longer, but this is an asynchronous command, so what it's going to do is put in a request to read the files from the library folder and when the file system is finished reading those files this call back will be invoked.
 
 NOTE:  At this confusing point, realized I am missing core concepts of funcional programming.  Created, new folder, called func-prog-concepts
-The first chapter - Higher Order Functions.  Example used is Filter Function.
-
+The first chapter - Higher Order Functions.  Example used is Filter Function.  
 
 
 
 NOTE BEGIN:  Understand the difference between forEach, filter and map; Then learn about Reduce, Advanced Reduce!; Then understand closures.  
-Then understand Currying.  Then, study about Recursion.
+Then understand Currying.  Then, study about Recursion.  Then understanding Promises, Functors.
 These are functional programing concepts.
 : NOTE END
 
@@ -46,6 +45,22 @@ And then... the function at the end of the chain will be the one that returns th
 The idea behind currying is that your function can pass through the application and gradually receive the arguments that it needs.  At some point we install lodash. 
 
 Recursion:Recursion is when a function calls itself until it doesn't.  Simply that is all it is!  Don't make it too darn complicated... people on the internet try to explain it with fibonacci numbers lol.  What a waste of time.  Just keep things simple.  See our example.  Recursive functions can do something that loops cannot.
+
+Functors:  A functor is simply something that can be mapped over.  In OOP speak, we call it a mappable.  In the example below, the array is a functor!
+console.log([2, 4, 6].map(x => x+3))
+will result in// => [5, 7, 9]
+
+Modads: A type of functor that also implements Flatmap!   
+
+Streams: Think of a stream as the result of promise and array having a baby that's a series of multiple objects that are already there while a promise is a notion of a single object that might be there eventually... a Stream is a throw of values that will arrive whenever they feel like it.  
+
+
+
+
+
+
+
+
 ==================   Old vs. Modern Way to import a library in Node ==================
 var fs = require("fs");
                      or ... in modern JavaScript we would say
