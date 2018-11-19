@@ -36,7 +36,12 @@ note fs.mkdir enables us to make a directory and in our case if the lib director
 
 17: File 015, is about renaming and removing files.  
 we are using the fs.renameSync method to rename a file synchronously.
+We have a part1, and part2 
 
+18: Removing directories 
+fs.rmdir is the command for this
+
+19: We learn about Readable File Streams next!
 
 
 
