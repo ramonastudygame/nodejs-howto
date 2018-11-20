@@ -43,10 +43,11 @@ fs.rmdir is the command for this
 
 19: We learn about Readable File Streams.  We have already technically started to use streams.. previously.  process.stdout, and process.stdin is an example of using the streaming interface.  our File 017, is actually created in realPerson.js, which creates filename.md when processed... very cool!    Next we move on to the HTTP module...where we discover how streams are an important part of the http module and how they help improve our web server's efficiency by streaming data to the client.
 
+20: THE HTTP MODULE!!!
+We go through an overview of npm and how to install npm modules etc.. Normally we always start stop applications but using node-dev we can just leave the application running on localhost (until we intentionally stop it.) Consider installing node-dev globally.  jshint is a tool that will take a look at our code and let us know if there are any issues or problems with it. Globally install this too!
 
-
-
-
+httpster will give us a static file server, so with this node module we can build a web server that will serve static content.  
+Installation of the express server npm install express... Express the E in Express also represents the E in MEAN.  
 
 NOTE BEGIN:  Understand the difference between forEach, filter and map; Then learn about Reduce, Advanced Reduce!; Then understand closures.  
 Then understand Currying.  Then, study about Recursion.  Then understanding Promises, Functors.
