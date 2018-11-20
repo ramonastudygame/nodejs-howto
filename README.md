@@ -41,8 +41,7 @@ We have a part1, and part2
 18: Removing directories 
 fs.rmdir is the command for this
 
-19: We learn about Readable File Streams next!
-
+19: We learn about Readable File Streams.  We have already technically started to use streams.. previously.  process.stdout, and process.stdin is an example of using the streaming interface.  our File 017, is actually created in realPerson.js, which creates filename.md when processed... very cool!    Next we move on to the HTTP module...where we discover how streams are an important part of the http module and how they help improve our web server's efficiency by streaming data to the client.
 
 
 

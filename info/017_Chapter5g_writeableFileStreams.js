@@ -1,0 +1,1 @@
+/* realPerson.js is an exmple we use to showcase the understanding of writable streams */
